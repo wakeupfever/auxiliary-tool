@@ -1,0 +1,19 @@
+{
+  "name": "@auxiliary-tool/formate-json",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "json"
+  ],
+  "author": "Five <1874803565@qq.com>",
+  "main": "dist/formateJson.min.js",
+  "module": "dist/formateJson.esm.js",
+  "typings": "dist/types/index.d.ts",
+  "homepage": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+  }
+}
