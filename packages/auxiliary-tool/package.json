@@ -1,13 +1,11 @@
 {
-  "name": "@auxiliary-tool/external-plugins",
+  "name": "auxiliary-tool",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Five <1874803565@qq.com>",
-  "main": "dist/externalPlugins.min.js",
-  "module": "dist/externalPlugins.esm.js",
-  "typings": "dist/types/index.d.ts",
-  "homepage": "",
+  "homepage": "https://github.com/wakeupfive/auxiliary-tool#readme",
   "license": "ISC",
+  "main": "src/index.ts",
   "directories": {
     "lib": "src",
     "test": "__tests__"
@@ -15,8 +13,15 @@
   "files": [
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakeupfive/auxiliary-tool.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wakeupfive/auxiliary-tool/issues"
   },
   "devDependencies": {
   }

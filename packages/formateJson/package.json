@@ -11,9 +11,16 @@
   "typings": "dist/types/index.d.ts",
   "homepage": "",
   "license": "MIT",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
   }
 }

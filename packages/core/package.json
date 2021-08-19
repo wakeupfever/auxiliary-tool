@@ -1,5 +1,5 @@
 {
-  "name": "auxuiliary-core",
+  "name": "@auxiliary-tool/core",
   "version": "0.0.0",
   "description": "> TODO: description",
   "keywords": [
@@ -21,6 +21,6 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
   }
 }

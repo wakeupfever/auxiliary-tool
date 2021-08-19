@@ -1,5 +1,5 @@
 interface PluginCtor {
-  pluginName: string
+  selfPluginName: string
   new(auxiliary: any): any
 }
 
@@ -11,11 +11,16 @@ interface PluginItem {
 export class AuxiliaryTool {
   static plugins: PluginItem[] = []
   use(ctor: PluginCtor) {
-    const name = ctor.pluginName
+    const name = ctor.selfPluginName
     const installed = AuxiliaryTool.plugins.some(plugin => ctor === plugin.ctor)
     if (installed) return AuxiliaryTool
     if (!name) {
-      console.log(`Plugin Class must specify plugin's name in static property by 'pluginName' field.`)
+      console.log(`Plugin Class must specify plugin's name in static property by 'selfPluginName' field.`)
     }
+    AuxiliaryTool.plugins.push({
+      name: ctor.selfPluginName,
+      ctor
+    })
+    return AuxiliaryTool
   }
 }

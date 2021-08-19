@@ -300,8 +300,6 @@ const init = async () => {
 
   const buildConfigs = generateBuildConfigs(answers)
 
-  console.log(buildConfigs)
-
   build(buildConfigs)
 }
 
