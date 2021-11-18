@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'record-ele-unique-loader'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath H:\T\auxiliary-tool
+3 error FetchError: request to https://registry.npmjs.org/record-ele-unique-loader failed, reason: connect ETIMEDOUT 104.16.20.35:443
+3 error     at ClientRequest.<anonymous> (C:\Users\Lenovo\AppData\Roaming\nvm\v12.18.4\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:110:14)
+3 error     at ClientRequest.emit (events.js:315:20)
+3 error     at TLSSocket.socketErrorListener (_http_client.js:426:9)
+3 error     at TLSSocket.emit (events.js:327:22)
+3 error     at emitErrorNT (internal/streams/destroy.js:92:8)
+3 error     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
