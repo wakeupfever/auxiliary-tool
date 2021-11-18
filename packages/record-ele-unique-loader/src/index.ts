@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = recordEleUniqueLoader;
-
-function recordEleUniqueLoader() {
-    // TODO
+export default class RecordEleUniqueLoader {
+	static selfName = 'RecordEleUniqueLoader'
 }

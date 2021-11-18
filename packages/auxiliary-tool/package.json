@@ -4,8 +4,10 @@
   "description": "> TODO: description",
   "author": "Five <1874803565@qq.com>",
   "homepage": "https://github.com/wakeupfive/auxiliary-tool#readme",
-  "license": "ISC",
-  "main": "src/index.ts",
+  "license": "MIT",
+  "main": "dist/auxiliary-tool.min.js",
+  "module": "dist/auxiliary-tool.esm.js",
+  "typings": "dist/types/index.d.ts",
   "directories": {
     "lib": "src",
     "test": "__tests__"

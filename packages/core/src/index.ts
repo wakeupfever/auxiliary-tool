@@ -10,6 +10,7 @@ interface PluginItem {
 
 export class AuxiliaryTool {
   static plugins: PluginItem[] = []
+  
   use(ctor: PluginCtor) {
     const name = ctor.selfPluginName
     const installed = AuxiliaryTool.plugins.some(plugin => ctor === plugin.ctor)

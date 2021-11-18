@@ -1,11 +1,13 @@
 {
-  "name": "record-ele-unique-loader",
+  "name": "@auxiliary-tool/record-ele-unique-loader",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Five <1874803565@qq.com>",
   "homepage": "https://github.com/wakeupfive/auxiliary-tool#readme",
-  "license": "ISC",
-  "main": "src/index.ts",
+  "license": "MIT",
+  "main": "dist/record-ele-unique-loader.min.js",
+  "module": "dist/record-ele-unique-loader.esm.js",
+  "typings": "dist/types/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

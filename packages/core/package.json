@@ -10,7 +10,7 @@
   "module": "dist/core.esm.js",
   "typings": "dist/types/index.d.ts",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {
     "src": "src",
     "test": "__tests__"
