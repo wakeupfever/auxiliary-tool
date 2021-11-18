@@ -1,2 +1,3 @@
-export default class auxiliaryTool {
+export default class AuxiliaryTool {
+    static selfName: string;
 }

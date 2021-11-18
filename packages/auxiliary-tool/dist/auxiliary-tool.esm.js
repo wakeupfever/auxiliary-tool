@@ -3,10 +3,11 @@
  * (c) 2016-2021 ustbhuangyi
  * Released under the MIT License.
  */
-var auxiliaryTool = /** @class */ (function () {
-    function auxiliaryTool() {
+var AuxiliaryTool = /** @class */ (function () {
+    function AuxiliaryTool() {
     }
-    return auxiliaryTool;
+    AuxiliaryTool.selfName = 'auxiliaryTool';
+    return AuxiliaryTool;
 }());
 
-export { auxiliaryTool as default };
+export { AuxiliaryTool as default };
