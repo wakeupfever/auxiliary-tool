@@ -24,5 +24,8 @@
   },
   "bugs": {
     "url": "https://github.com/wakeupfive/auxiliary-tool/issues"
+  },
+  "dependencies": {
+    "loader-utils": "^3.2.0"
   }
 }

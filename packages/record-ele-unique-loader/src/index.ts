@@ -1,3 +1,6 @@
-export default class RecordEleUniqueLoader {
-	static selfName = 'RecordEleUniqueLoader'
+import { getOptions } from 'loader-utils'
+
+export default function (source: any) {
+	const options = getOptions()
+	return source
 }
