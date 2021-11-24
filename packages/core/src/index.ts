@@ -11,7 +11,7 @@ interface PluginItem {
 export class AuxiliaryTool {
   static plugins: PluginItem[] = []
   
-  use(ctor: PluginCtor) {
+  static use(ctor: PluginCtor) {
     const name = ctor.selfPluginName
     const installed = AuxiliaryTool.plugins.some(plugin => ctor === plugin.ctor)
     if (installed) return AuxiliaryTool
@@ -25,3 +25,14 @@ export class AuxiliaryTool {
     return AuxiliaryTool
   }
 }
+
+export function createAuxiliaryTool(): AuxiliaryTool {
+  const at = new AuxiliaryTool()
+  return at
+}
+
+createAuxiliaryTool.use = AuxiliaryTool.use
+createAuxiliaryTool.plugins = AuxiliaryTool.plugins
+
+export const ATool = createAuxiliaryTool
+

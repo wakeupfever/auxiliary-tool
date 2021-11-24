@@ -1,25 +1,25 @@
 {
   "name": "@auxiliary-tool/core",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "ATool core description",
   "keywords": [
     "core"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/wakeupfive/auxiliary-tool/issues"
+  },
+  "homepage": "https://github.com/wakeupfive/auxiliary-tool",
   "author": "Five <1874803565@qq.com>",
   "main": "dist/core.min.js",
   "module": "dist/core.esm.js",
   "typings": "dist/types/index.d.ts",
-  "homepage": "",
   "license": "MIT",
   "directories": {
     "src": "src",
     "test": "__tests__"
-  },
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
   }
